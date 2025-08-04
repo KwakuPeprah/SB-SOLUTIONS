@@ -1,0 +1,15 @@
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\bin\Debug\SB SOLUTIONS.exe.config
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\bin\Debug\SB SOLUTIONS.exe
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\bin\Debug\SB SOLUTIONS.pdb
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB SOLUTIONS.csproj.AssemblyReference.cache
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB SOLUTIONS.csproj.SuggestedBindingRedirects.cache
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.Properties.Resources.resources
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB SOLUTIONS.csproj.GenerateResource.cache
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB SOLUTIONS.csproj.CoreCompileInputs.cache
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB SOLUTIONS.exe
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB SOLUTIONS.pdb
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.HomePage.resources
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.Login.resources
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.Dashboard.resources
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.newStaff1.resources
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.newStaff.resources
