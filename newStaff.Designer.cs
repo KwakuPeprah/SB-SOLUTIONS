@@ -39,8 +39,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.cboMarry = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.dtpDOE = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.DOE = new System.Windows.Forms.Label();
+            this.dtpDOE = new System.Windows.Forms.DateTimePicker();
             this.dtpDOB = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.radFemale = new System.Windows.Forms.RadioButton();
@@ -84,7 +84,6 @@
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnContinue
             // 
@@ -92,7 +91,7 @@
             this.btnContinue.Name = "btnContinue";
             this.btnContinue.Size = new System.Drawing.Size(158, 30);
             this.btnContinue.TabIndex = 4;
-            this.btnContinue.Text = "Continue >>";
+            this.btnContinue.Text = "Save and Continue >>";
             this.btnContinue.UseVisualStyleBackColor = true;
             this.btnContinue.Click += new System.EventHandler(this.btnContinue_Click);
             // 
@@ -104,8 +103,8 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.cboMarry);
             this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.DOE);
             this.groupBox1.Controls.Add(this.dtpDOE);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.dtpDOB);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.radFemale);
@@ -177,23 +176,22 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "Marital Status";
             // 
+            // DOE
+            // 
+            this.DOE.AutoSize = true;
+            this.DOE.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOE.Location = new System.Drawing.Point(555, 180);
+            this.DOE.Name = "DOE";
+            this.DOE.Size = new System.Drawing.Size(183, 20);
+            this.DOE.TabIndex = 12;
+            this.DOE.Text = "Date Of Employment";
+            // 
             // dtpDOE
             // 
-            this.dtpDOE.AutoSize = true;
-            this.dtpDOE.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDOE.Location = new System.Drawing.Point(555, 180);
+            this.dtpDOE.Location = new System.Drawing.Point(559, 227);
             this.dtpDOE.Name = "dtpDOE";
-            this.dtpDOE.Size = new System.Drawing.Size(183, 20);
-            this.dtpDOE.TabIndex = 12;
-            this.dtpDOE.Text = "Date Of Employment";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(559, 227);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(311, 27);
-            this.dateTimePicker1.TabIndex = 11;
-
+            this.dtpDOE.Size = new System.Drawing.Size(311, 27);
+            this.dtpDOE.TabIndex = 11;
             // 
             // dtpDOB
             // 
@@ -201,8 +199,6 @@
             this.dtpDOB.Name = "dtpDOB";
             this.dtpDOB.Size = new System.Drawing.Size(311, 27);
             this.dtpDOB.TabIndex = 10;
-            this.dtpDOB.ValueChanged += new System.EventHandler(this.dtpDOB_ValueChanged);
-            this.dtpDOB.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtpDOB_KeyDown);
             // 
             // label5
             // 
@@ -336,8 +332,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cboMarry;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label dtpDOE;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label DOE;
+        private System.Windows.Forms.DateTimePicker dtpDOE;
         private System.Windows.Forms.DateTimePicker dtpDOB;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RadioButton radFemale;

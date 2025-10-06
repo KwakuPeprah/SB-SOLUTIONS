@@ -33,20 +33,20 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.btnSaveStaff = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtBasSal = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cboEmpStatus = new System.Windows.Forms.ComboBox();
+            this.cboEmpType = new System.Windows.Forms.ComboBox();
+            this.txtSuper = new System.Windows.Forms.TextBox();
+            this.cboDept = new System.Windows.Forms.ComboBox();
+            this.txtJob = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.txtJob = new System.Windows.Forms.TextBox();
-            this.cboDept = new System.Windows.Forms.ComboBox();
-            this.txtSuper = new System.Windows.Forms.TextBox();
-            this.cboEmpType = new System.Windows.Forms.ComboBox();
-            this.cboEmpStatus = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtBasSal = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -89,6 +89,7 @@
             this.btnSaveStaff.TabIndex = 3;
             this.btnSaveStaff.Text = "Save";
             this.btnSaveStaff.UseVisualStyleBackColor = true;
+            this.btnSaveStaff.Click += new System.EventHandler(this.btnSaveStaff_Click);
             // 
             // groupBox1
             // 
@@ -113,6 +114,78 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Employee Info";
+            // 
+            // txtBasSal
+            // 
+            this.txtBasSal.Location = new System.Drawing.Point(406, 317);
+            this.txtBasSal.Name = "txtBasSal";
+            this.txtBasSal.Size = new System.Drawing.Size(321, 27);
+            this.txtBasSal.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(208, 324);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(116, 20);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Basic Salary";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(208, 279);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(171, 20);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Employment Status";
+            // 
+            // cboEmpStatus
+            // 
+            this.cboEmpStatus.FormattingEnabled = true;
+            this.cboEmpStatus.Location = new System.Drawing.Point(406, 271);
+            this.cboEmpStatus.Name = "cboEmpStatus";
+            this.cboEmpStatus.Size = new System.Drawing.Size(320, 28);
+            this.cboEmpStatus.TabIndex = 10;
+            // 
+            // cboEmpType
+            // 
+            this.cboEmpType.FormattingEnabled = true;
+            this.cboEmpType.Location = new System.Drawing.Point(406, 229);
+            this.cboEmpType.Name = "cboEmpType";
+            this.cboEmpType.Size = new System.Drawing.Size(320, 28);
+            this.cboEmpType.TabIndex = 9;
+            // 
+            // txtSuper
+            // 
+            this.txtSuper.Location = new System.Drawing.Point(403, 187);
+            this.txtSuper.Name = "txtSuper";
+            this.txtSuper.Size = new System.Drawing.Size(321, 27);
+            this.txtSuper.TabIndex = 8;
+            // 
+            // cboDept
+            // 
+            this.cboDept.FormattingEnabled = true;
+            this.cboDept.Location = new System.Drawing.Point(404, 145);
+            this.cboDept.Name = "cboDept";
+            this.cboDept.Size = new System.Drawing.Size(320, 28);
+            this.cboDept.TabIndex = 7;
+            // 
+            // txtJob
+            // 
+            this.txtJob.Location = new System.Drawing.Point(404, 109);
+            this.txtJob.Name = "txtJob";
+            this.txtJob.Size = new System.Drawing.Size(321, 27);
+            this.txtJob.TabIndex = 6;
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(405, 69);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(321, 27);
+            this.txtID.TabIndex = 5;
             // 
             // label6
             // 
@@ -163,78 +236,6 @@
             this.label2.Size = new System.Drawing.Size(65, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "EmpID";
-            // 
-            // txtID
-            // 
-            this.txtID.Location = new System.Drawing.Point(405, 69);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(321, 27);
-            this.txtID.TabIndex = 5;
-            // 
-            // txtJob
-            // 
-            this.txtJob.Location = new System.Drawing.Point(404, 109);
-            this.txtJob.Name = "txtJob";
-            this.txtJob.Size = new System.Drawing.Size(321, 27);
-            this.txtJob.TabIndex = 6;
-            // 
-            // cboDept
-            // 
-            this.cboDept.FormattingEnabled = true;
-            this.cboDept.Location = new System.Drawing.Point(404, 145);
-            this.cboDept.Name = "cboDept";
-            this.cboDept.Size = new System.Drawing.Size(320, 28);
-            this.cboDept.TabIndex = 7;
-            // 
-            // txtSuper
-            // 
-            this.txtSuper.Location = new System.Drawing.Point(403, 187);
-            this.txtSuper.Name = "txtSuper";
-            this.txtSuper.Size = new System.Drawing.Size(321, 27);
-            this.txtSuper.TabIndex = 8;
-            // 
-            // cboEmpType
-            // 
-            this.cboEmpType.FormattingEnabled = true;
-            this.cboEmpType.Location = new System.Drawing.Point(406, 229);
-            this.cboEmpType.Name = "cboEmpType";
-            this.cboEmpType.Size = new System.Drawing.Size(320, 28);
-            this.cboEmpType.TabIndex = 9;
-            // 
-            // cboEmpStatus
-            // 
-            this.cboEmpStatus.FormattingEnabled = true;
-            this.cboEmpStatus.Location = new System.Drawing.Point(406, 271);
-            this.cboEmpStatus.Name = "cboEmpStatus";
-            this.cboEmpStatus.Size = new System.Drawing.Size(320, 28);
-            this.cboEmpStatus.TabIndex = 10;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(208, 279);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(171, 20);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Employment Status";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(208, 324);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 20);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Basic Salary";
-            // 
-            // txtBasSal
-            // 
-            this.txtBasSal.Location = new System.Drawing.Point(406, 317);
-            this.txtBasSal.Name = "txtBasSal";
-            this.txtBasSal.Size = new System.Drawing.Size(321, 27);
-            this.txtBasSal.TabIndex = 13;
             // 
             // newStaff1
             // 

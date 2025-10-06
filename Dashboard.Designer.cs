@@ -32,10 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnAddStaff = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.btnView = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +59,7 @@
             // 
             // btnAddStaff
             // 
+            this.btnAddStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddStaff.Location = new System.Drawing.Point(60, 120);
             this.btnAddStaff.Name = "btnAddStaff";
             this.btnAddStaff.Size = new System.Drawing.Size(140, 65);
@@ -71,6 +70,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(519, 120);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 65);
@@ -79,51 +79,37 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(289, 120);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(140, 65);
-            this.btnUpdate.TabIndex = 4;
-            this.btnUpdate.Text = "UPDATE ";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            // 
             // btnView
             // 
-            this.btnView.Location = new System.Drawing.Point(289, 294);
+            this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnView.Location = new System.Drawing.Point(285, 120);
             this.btnView.Name = "btnView";
             this.btnView.Size = new System.Drawing.Size(140, 65);
             this.btnView.TabIndex = 5;
             this.btnView.Text = "VIEW";
             this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
-            // btnSearch
+            // button2
             // 
-            this.btnSearch.Location = new System.Drawing.Point(519, 283);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(140, 65);
-            this.btnSearch.TabIndex = 6;
-            this.btnSearch.Text = "SEARCH";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(60, 294);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(140, 65);
-            this.btnDelete.TabIndex = 7;
-            this.btnDelete.Text = "DELETE";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(519, 252);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(140, 65);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "EXIT";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnView);
-            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAddStaff);
             this.Controls.Add(this.panel1);
@@ -141,9 +127,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnAddStaff;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnView;
-        private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button button2;
     }
 }

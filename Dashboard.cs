@@ -30,5 +30,16 @@ namespace SB_SOLUTIONS
             hm.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnView_Click(object sender, EventArgs e)
+        {
+            AllStaff nst = new AllStaff();
+            nst.Show();
+        }
     }
 }

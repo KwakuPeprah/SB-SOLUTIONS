@@ -13,3 +13,4 @@ C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.Login.resourc
 C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.Dashboard.resources
 C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.newStaff1.resources
 C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.newStaff.resources
+C:\C#\KAYP Employee Mgt System\SB SOLUTIONS\obj\Debug\SB_SOLUTIONS.AllStaff.resources

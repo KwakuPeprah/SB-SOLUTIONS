@@ -52,6 +52,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllStaff.Designer.cs">
+      <DependentUpon>AllStaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="newStaff1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllStaff.resx">
+      <DependentUpon>AllStaff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="newStaff1.resx">
       <DependentUpon>newStaff1.cs</DependentUpon>
